@@ -27,7 +27,7 @@ RUN python3 -m venv /opt/.venv && \
     pyarrow \
     setuptools \
     wheel \
-    keplergl==0.3.6
+    keplergl==0.3.7
 
 # Add a working directory
 WORKDIR /notebooks
